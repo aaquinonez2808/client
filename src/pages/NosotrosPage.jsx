@@ -1,8 +1,9 @@
 import React from 'react'
+import { Nosotros } from '../components/nosotros/Nosotros'
 
 const NosotrosPage = () => {
   return (
-    <div>NosotrosPage</div>
+    <div><Nosotros/></div>
   )
 }
 

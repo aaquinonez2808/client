@@ -15,5 +15,6 @@ export const Nosotros = () => {
       <Footer />
     </>
   );
-};
+}
+export default Nosotros
 

@@ -68,7 +68,7 @@ const cursos = [
 
 const ListCurso = () => {
   return (
-    <div className='row mt-3 gap-lg-3 mx-auto'>
+    <div className='row mt-3 gap-lg-3'>
       {
         cursos.map(curso => (
           <div className="card col-4" style={{width: "18rem"}} key={curso.id}>
