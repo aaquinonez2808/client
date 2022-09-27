@@ -1,8 +1,12 @@
 import React from 'react'
+import ListCurso from '../components/curso/ListCurso'
 
 const CursoPage = () => {
   return (
-    <div>CursoPage</div>
+    <div className='container'>
+        <h1 className='text-center my-5'>Listado de Cursos a Ofertar</h1>
+        <ListCurso/>
+    </div>
   )
 }
 

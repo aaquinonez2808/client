@@ -23,7 +23,7 @@ export const Navbar = () => {
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/cursos" className="nav-link">
+            <NavLink to="/categorias" className="nav-link">
               Cursos Generales
             </NavLink>
           </li>
