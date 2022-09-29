@@ -11,7 +11,7 @@ const Curso = ({curso}) => {
           Some quick example text to build on the card title and make up the
           bulk of the card's content.
         </p>
-        <NavLink to="/" className="btn btn-primary">
+        <NavLink to="/registro" target="_blank" className="btn btn-primary">
           Ir al Curso
         </NavLink>
       </div>
