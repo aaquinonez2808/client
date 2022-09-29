@@ -7,6 +7,7 @@ import { Navbar } from "../components/navbar/Navbar";
 import { NavbarRedes } from "../components/navbar/NavbarRedes";
 import CategoriasPage from "../pages/CategoriasPage";
 import CursosPage from "../pages/CursosPage";
+import ResgistroPage from "../pages/RegistroPage";
 export const AppRoutes = () => {
   return (
     <>
@@ -19,6 +20,7 @@ export const AppRoutes = () => {
         <Route path="/categorias" element={<CategoriasPage />} />
         <Route path="/categorias/:id/cursos" element={<CursosPage />} />
         <Route path="/contacto" element={<ContactoPage />} />
+        <Route path="/registro" element={<ResgistroPage />} />
       </Routes>
     </>
   );
